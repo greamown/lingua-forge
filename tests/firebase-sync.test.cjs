@@ -114,3 +114,14 @@ test('a failed sync keeps local progress and offers a retry', async () => {
   assert.match(d.el('firebaseStatus').textContent, /同步失敗：offline/);
   assert.equal(d.el('cloudSyncLabel').textContent, '同步失敗，重試');
 });
+
+test('deleting an item on one device removes it on the other after sync', async () => {
+  const remote = {};
+  const a = device(remote), b = device(remote);
+  await a.sync(); await b.sync();
+  const english = a.run('data[0].english');
+  a.run('confirm=()=>true;deleteItem(0)');
+  await a.sync(); await b.sync();
+  assert.equal(b.run('data.some(x=>x.english===' + JSON.stringify(english) + ')'), false);
+  assert.equal(b.run('data.length'), 9);
+});

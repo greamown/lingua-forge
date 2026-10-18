@@ -178,6 +178,11 @@ function setPracticeKind(kind,tab){
   document.querySelectorAll(".practice-kind").forEach(select=>select.value=kind);
   showTab(tab);
 }
+// Removing an item leaves a dated removal record, so the deletion syncs to other devices too.
+function deleteItem(index){
+  const x=data[index];if(!x||!confirm(copy("確定刪除「"+x.english+"」？這一項的學習進度也會一起刪除。")))return;
+  data.splice(index,1);studyStarted=false;quizStarted=false;save();renderLibrary();
+}
 function setItemKind(index,kind){
   if(!data[index]||!["word","sentence"].includes(kind))return;
   data[index].kind=kind;save();studyStarted=false;quizStarted=false;studyQueue=[];quizQueue=[];renderLibrary();
@@ -235,8 +240,6 @@ function exampleEnglish(item){
   const example=typeof item.note==="string"?item.note.split(/[（(](?=[^()（）]*[㐀-鿿])/)[0].trim():"";
   return /^["'“‘]?[A-Za-z]/.test(example)&&/[.!?。！？]["'”’）」』]*$/.test(example)&&!/[㐀-鿿]/.test(example)&&norm(example)!==norm(item.english)?example:"";
 }
-// English note is complete when it has a playable example plus a Chinese translation
-const fullNote=x=>!!exampleEnglish(x)&&/[㐀-鿿]/.test(x.note||"");
 function speakStudyExample(rate=1){const item=studyQueue[studyIndex];if(item)speak(exampleEnglish(item),rate)}
 function speakItemExample(index,rate=1){if(data[index])speak(exampleEnglish(data[index]),rate)}
 function speakCurrent(rate=1){speak(studyQueue[studyIndex]?.english,rate)}
@@ -304,7 +307,7 @@ function renderLibrary(){
   $("items").innerHTML=rows.length?rows.map(x=>{
     const level=x.level||0,index=data.indexOf(x),kind=itemKind(x),note=displayNote(x);
     const dots=Array.from({length:6},(_,i)=>'<i class="'+(i<level?"filled":"")+'"></i>').join("");
-    return '<article class="item"><div class="row"><span class="tag">'+esc(x.category||"General")+'</span><span class="kbd">'+(!x.seen?"還沒學過":!x.due||x.due<=localDay()?"到期複習":"複習日 "+esc(x.due))+(x.seen?" · 練習 "+x.seen+" 次"+(x.firstStudiedAt?" · 首次 "+studiedTime(x.firstStudiedAt):"")+(x.lastStudiedAt?" · 上次 "+studiedTime(x.lastStudiedAt):""):"")+'</span></div><strong lang="'+LANGUAGE+'">'+esc(x.english)+'</strong>'+(x.reading?'<p class="hint" lang="ja">假名：'+esc(x.reading)+'</p>':'')+(JAPANESE&&x.romaji?'<p class="hint" lang="en">羅馬字：'+esc(x.romaji)+'</p>':'')+'<p class="translation">'+esc(x.chinese||"尚未提供中文提示")+'</p>'+(note?'<details><summary>例句與補充</summary><p class="hint">'+esc(note)+'</p>'+(exampleEnglish(x)?'<div class="actions"><button class="btn secondary" onclick="speakItemExample('+index+',1)">例句發音</button><button class="btn outline" onclick="speakItemExample('+index+',0.7)">例句慢速跟讀</button></div>':'')+'</details>':'')+'<div class="actions"><button class="btn secondary" onclick="speakItem('+index+',1)" aria-label="播放 '+esc(x.english)+'">聽發音</button><button class="btn outline" onclick="speakItem('+index+',0.7)" aria-label="慢速播放 '+esc(x.english)+'">慢速跟讀</button><select class="item-kind" aria-label="教材類型：'+esc(x.english)+'" onchange="setItemKind('+index+',this.value)"><option value="word" '+(kind==="word"?"selected":"")+'>單字與片語</option><option value="sentence" '+(kind==="sentence"?"selected":"")+'>完整句子</option></select></div><div class="item-foot"><span><span class="level-dots" aria-hidden="true">'+dots+'</span>熟練 '+level+'/6</span><span>'+esc(x.source||"自行新增")+'</span></div></article>';
+    return '<article class="item"><div class="row"><span class="tag">'+esc(x.category||"General")+'</span><span class="kbd">'+(!x.seen?"還沒學過":!x.due||x.due<=localDay()?"到期複習":"複習日 "+esc(x.due))+(x.seen?" · 練習 "+x.seen+" 次"+(x.firstStudiedAt?" · 首次 "+studiedTime(x.firstStudiedAt):"")+(x.lastStudiedAt?" · 上次 "+studiedTime(x.lastStudiedAt):""):"")+'</span></div><strong lang="'+LANGUAGE+'">'+esc(x.english)+'</strong>'+(x.reading?'<p class="hint" lang="ja">假名：'+esc(x.reading)+'</p>':'')+(JAPANESE&&x.romaji?'<p class="hint" lang="en">羅馬字：'+esc(x.romaji)+'</p>':'')+'<p class="translation">'+esc(x.chinese||"尚未提供中文提示")+'</p>'+(note?'<details><summary>例句與補充</summary><p class="hint">'+esc(note)+'</p>'+(exampleEnglish(x)?'<div class="actions"><button class="btn secondary" onclick="speakItemExample('+index+',1)">例句發音</button><button class="btn outline" onclick="speakItemExample('+index+',0.7)">例句慢速跟讀</button></div>':'')+'</details>':'')+'<div class="actions"><button class="btn secondary" onclick="speakItem('+index+',1)" aria-label="播放 '+esc(x.english)+'">聽發音</button><button class="btn outline" onclick="speakItem('+index+',0.7)" aria-label="慢速播放 '+esc(x.english)+'">慢速跟讀</button><select class="item-kind" aria-label="教材類型：'+esc(x.english)+'" onchange="setItemKind('+index+',this.value)"><option value="word" '+(kind==="word"?"selected":"")+'>單字與片語</option><option value="sentence" '+(kind==="sentence"?"selected":"")+'>完整句子</option></select><button class="btn outline" onclick="deleteItem('+index+')" aria-label="刪除 '+esc(x.english)+'">刪除</button></div><div class="item-foot"><span><span class="level-dots" aria-hidden="true">'+dots+'</span>熟練 '+level+'/6</span><span>'+esc(x.source||"自行新增")+'</span></div></article>';
   }).join(""):'<div class="empty">'+(q?"沒有找到這筆教材，試試其他關鍵字。":"這裡目前沒有教材。可以切換篩選，或新增想學的單字與句子。")+'</div>';
 }
 function setFilter(filter){libraryFilter=filter;document.querySelectorAll(".filter").forEach(button=>button.setAttribute("aria-pressed",String(button.dataset.filter===filter)));renderLibrary()}
@@ -324,7 +327,10 @@ function mergeItems(items){
       if(JAPANESE)for(const field of ["reading","romaji"]){
         if(!existing[field]&&typeof x[field]==="string"&&x[field].trim()){existing[field]=x[field];updated=true}
       }
-      else if(fullNote(x)&&!fullNote(existing)){existing.note=x.note;updated=true}// English: fill a missing or incomplete example
+      // English text can only come from imports, so reimporting refreshes it; progress fields are untouched
+      else for(const field of ["english","chinese","note"]){
+        if(typeof x[field]==="string"&&x[field].trim()&&existing[field]!==x[field]){existing[field]=x[field];updated=true}
+      }
       continue;
     }
     const item={...x,id:"import-"+Date.now()+"-"+count,level:0,due:0,seen:0};
@@ -332,7 +338,7 @@ function mergeItems(items){
   }
   if(count||updated){studyStarted=false;quizStarted=false}save();return count;
 }
-function importText(){try{let a=parseItems(JSON.parse($("jsoninput").value));let n=mergeItems(a);$("importstatus").textContent="成功新增 "+n+" 筆。"+(JAPANESE?"相同日文只補上缺少的假名與羅馬字，既有內容與進度保留。":"已跳過重複內容。")}catch(e){$("importstatus").textContent="匯入失敗："+e.message}}
+function importText(){try{let a=parseItems(JSON.parse($("jsoninput").value));let n=mergeItems(a);$("importstatus").textContent="成功新增 "+n+" 筆。"+(JAPANESE?"相同日文只補上缺少的假名與羅馬字，既有內容與進度保留。":"相同英文已更新為檔案中的中文與例句，學習進度保留。")}catch(e){$("importstatus").textContent="匯入失敗："+e.message}}
 function importFile(e){let f=e.target.files[0];if(!f)return;f.text().then(t=>{$("jsoninput").value=t;importText()}).catch(err=>$("importstatus").textContent=err.message);e.target.value=""}
 function backupData(){
   const items=JAPANESE?data.map(({english,...rest})=>({japanese:english,...rest})):data;

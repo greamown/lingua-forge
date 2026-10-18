@@ -2,8 +2,8 @@
   "items": [
     {
       "english": "flood",
-      "chinese": "名詞：洪水；水災｜動詞：泛濫；淹沒",
-      "example": "The small village was hit by a terrible flood last summer, and many houses were destroyed.（這個小村庄去年夏天遭遇了嚴重的水災，許多房屋都被摧毀了。）",
+      "chinese": "洪水、水災；淹沒",
+      "example": "The small village was hit by a terrible flood last summer, and many houses were destroyed.（這個小村莊去年夏天遭遇了嚴重的水災，許多房屋都被摧毀了。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
@@ -37,7 +37,7 @@
     },
     {
       "english": "progress",
-      "chinese": "名詞：進步；進展｜動詞：進步；推進",
+      "chinese": "進步、進展；推進",
       "example": "The students have made great progress in their English speaking skills after three months of practice.（經過三個月的練習，這些學生的英語口語能力有了極大的進步。）",
       "category": "English-Class",
       "source": "English-Class lessons"
@@ -86,7 +86,7 @@
     },
     {
       "english": "receptionist",
-      "chinese": "接待員；櫃檯人員",
+      "chinese": "接待員、櫃檯人員",
       "example": "The receptionist at the company asked me to fill in a form before I met the manager.（這家公司的接待員讓我先填寫表單，再去見經理。）",
       "category": "English-Class",
       "source": "English-Class lessons"
@@ -106,8 +106,8 @@
       "source": "English-Class lessons"
     },
     {
-      "english": "Vet/Veterinarian",
-      "chinese": "獸醫（Vet 口語；Veterinarian 正式）",
+      "english": "vet/veterinarian",
+      "chinese": "獸醫（口語／正式）",
       "example": "My cat has been sick for two days, so I will take her to the vet this afternoon.（我的貓病了兩天，今天下午我要帶牠去看獸醫。）",
       "category": "English-Class",
       "source": "English-Class lessons"
@@ -142,15 +142,15 @@
     },
     {
       "english": "crisp",
-      "chinese": "形容詞：脆的；清脆的；清新的｜名詞：薯片（英式）",
+      "chinese": "脆的、清爽的；（英式）洋芋片",
       "example": "These fresh carrots are very crisp, and they taste great when eaten raw.（這些新鮮胡蘿蔔很脆，生吃味道很棒。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "own",
-      "chinese": "動詞：擁有｜形容詞：自己的｜代名詞：自己的（東西 / 人）",
-      "example": "She has always wanted to own a small café in the neighbourhood, and she finally made it last year.（她一直想在附近開一家小咖啡館，去年終於如願以償了。）",
+      "chinese": "擁有；自己的",
+      "example": "She has always wanted to own a small café in the neighbourhood, and she finally did it last year.（她一直想在社區裡擁有一家小咖啡館，去年終於實現了。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
@@ -163,7 +163,7 @@
     },
     {
       "english": "judge",
-      "chinese": "名詞：法官；裁判｜動詞：判斷；評價；審判",
+      "chinese": "法官、裁判；判斷、評價",
       "example": "It’s not fair to judge someone only by their first impression; you need to know them better.（只靠第一印象評價一個人是不公平的，你需要更瞭解他們。）",
       "category": "English-Class",
       "source": "English-Class lessons"
@@ -191,29 +191,29 @@
     },
     {
       "english": "sentry/scout",
-      "chinese": "sentry：名詞，崗兵；崗哨｜動詞，守衛；放哨｜scout：名詞，偵查員；探員｜動詞，偵查；勘查",
+      "chinese": "哨兵、站崗／偵察兵、偵察",
       "example": "The soldiers stand sentry at the camp gate 24 hours a day to ensure the safety of the camp.（士兵們全天 24 小時在營地門口站崗，確保營地安全。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "sink/washbasin",
-      "chinese": "sink：廚房水槽；洗碗池｜washbasin：衛生間洗臉盆；面盆",
+      "chinese": "（廚房）水槽／（浴室）洗臉盆",
       "example": "The water from the kitchen sink is slow to drain, so we need to clean the pipe.（廚房水槽的下水很慢，我們需要清理一下水管。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "dryer/tumble dryer",
-      "chinese": "烘衣機（dryer 通用；tumble dryer 英式）",
+      "chinese": "烘衣機（通用／英式說法）",
       "example": "It’s raining outside, so we can’t hang the clothes out to dry—let’s use the tumble dryer instead.（外面在下雨，衣服晾不了，我們用烘衣機吧。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "fix/deal with/solve/handle the problem",
-      "chinese": "fix the problem：解決（具體實質性）問題｜",
-      "example": "The manager needs to handle this team conflict problem carefully, as it requires balancing the emotions of all team members.（經理需要謹慎處理這起團隊衝突問題，因為這需要平衡所有團隊成員的情緒。）",
+      "chinese": "解決／處理問題",
+      "example": "The manager needs to handle the problem carefully because it affects everyone on the team.（經理需要謹慎處理這個問題，因為它影響到團隊裡的每個人。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
@@ -302,113 +302,113 @@
       "source": "English-Class lessons"
     },
     {
-      "english": "Sore throat",
-      "chinese": "Pain in the throat（喉嚨部位的疼痛）",
+      "english": "sore throat",
+      "chinese": "喉嚨痛",
       "example": "She has a bad sore throat, so she can’t sing in the school concert tonight.（她喉嚨很痛，所以今晚不能在學校音樂會上唱歌了。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Fine",
-      "chinese": "- (Adjective) In good health or condition（身體健康的；狀況不錯的）",
+      "english": "fine",
+      "chinese": "身體很好的；罰款",
       "example": "He felt fine after the short rest, but he was fined 100 yuan for parking in the wrong place.（短暫休息後他感覺不錯，但因停車不當被罰款 100 元。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Discuss",
-      "chinese": "To talk about something with others to exchange ideas（與他人談論某事以交換想法，討論；商議）",
+      "english": "discuss",
+      "chinese": "討論、商議",
       "example": "We will have a team meeting tomorrow to discuss how to improve our work efficiency.（我們明天將開團隊會議，討論如何提高工作效率。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Disgusting",
-      "chinese": "Causing a strong feeling of dislike or nausea（引起強烈厭惡或噁心感，令人作嘔的；令人反感的）",
+      "english": "disgusting",
+      "chinese": "噁心的、令人反感的",
       "example": "The food in that restaurant was cold and tasted disgusting, so we left without finishing it.（那家餐廳的食物是涼的，嘗起來令人作嘔，所以我們沒吃完就離開了。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Pronunciation",
-      "chinese": "The way a word or language is spoken（單詞或語言的發聲方式，發音；讀音）",
+      "english": "pronunciation",
+      "chinese": "發音",
       "example": "She practices English pronunciation every morning by listening to tapes and repeating after them.（她每天早上通過聽錄音並跟讀來練習英語發音。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Efficient",
-      "chinese": "Working well without wasting time or energy（工作順利且不浪費時間或精力，高效的；能幹的）",
+      "english": "efficient",
+      "chinese": "高效率的、能幹的",
       "example": "This new machine is very efficient—it can finish the work of three old machines in half the time.（這台新機器非常高效，它能在一半時間內完成三台舊機器的工作。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Customer service",
-      "chinese": "Help and support provided to customers（提供給客戶的幫助和支持，客戶服務；客服）",
+      "english": "customer service",
+      "chinese": "客戶服務、客服",
       "example": "I called the store’s customer service to ask about the return policy, and they answered all my questions patiently.（我致電商店客服詢問退貨政策，他們耐心地回答了我所有的問題。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Promotion",
-      "chinese": "- A move to a higher job or position（晉升到更高的工作或職位，晉升）",
+      "english": "promotion",
+      "chinese": "升職；促銷",
       "example": "She worked hard for two years and finally got a promotion to manager; meanwhile, the store is running a big promotion this weekend.（她努力工作了兩年，終於晉升為經理；與此同時，這家商店本周末正在開展大型促銷活動。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Insurance",
-      "chinese": "An agreement to cover loss or damage for payment（通過繳費獲得損失或損害賠償的協議，保險）",
+      "english": "insurance",
+      "chinese": "保險",
       "example": "It’s important to buy health insurance to cover unexpected medical expenses.（購買健康保險以應對意外醫療費用是很重要的。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Startup company",
-      "chinese": "A new small company started by entrepreneurs（由創業者成立的新興小公司，初創公司；創業公司）",
+      "english": "startup company",
+      "chinese": "新創公司",
       "example": "They founded a startup company focused on green energy, and it has grown quickly in the past year.（他們創立了一家專注於綠色能源的初創公司，過去一年裡發展迅速。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Homophonic pun",
-      "chinese": "A joke using words with the same sound but different meanings（利用發音相同但含義不同的詞製作的笑話，諧音雙關）",
-      "example": "The comedian used a homophonic pun in his show—he said “I’m reading a book about anti-gravity, it’s impossible to put down!”（這位喜劇演員在表演中使用了諧音雙關，他說：「我正在讀一本關於反重力的書，根本放不下！」）",
+      "english": "homophonic pun",
+      "chinese": "諧音雙關",
+      "example": "The comedian used a homophonic pun in his show: “I’m reading a book about anti-gravity—it’s impossible to put down!”（這位喜劇演員在表演中用了諧音雙關：「我在讀一本關於反重力的書，根本放不下！」）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Open-plan office",
-      "chinese": "An office with a large open space and no separate rooms（擁有大型開放空間且無單獨房間的辦公室，開放式辦公室）",
+      "english": "open-plan office",
+      "chinese": "開放式辦公室",
       "example": "Our company moved to an open-plan office last month, which makes it easier to communicate with colleagues.（我們公司上個月搬到了開放式辦公室，這讓與同事溝通變得更方便了。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Private office",
-      "chinese": "A separate room in an office for one or a few people（辦公室中供一人或少數人使用的單獨房間，私人辦公室）",
+      "english": "private office",
+      "chinese": "個人辦公室",
       "example": "The manager has a private office where she can hold important meetings without being disturbed.（經理有一間私人辦公室，她可以在那裡舉行重要會議而不被打擾。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Cellular office",
-      "chinese": "An office divided into separate small rooms (cells)（被劃分為單獨小房間（單元）的辦公室，單間式辦公室；單元式辦公室）",
+      "english": "cellular office",
+      "chinese": "隔間式辦公室",
       "example": "Many law firms prefer cellular offices because they offer more privacy for client meetings.（許多律師事務所更喜歡單間式辦公室，因為它們能為客戶會面提供更多私密性。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Co-working space",
-      "chinese": "A shared office space used by different people or companies（不同人或公司共用的辦公空間，聯合辦公空間）",
-      "example": "Freelancers and remote workers often choose co-working spaces to avoid working alone at home.（自由職業者和遠程工作者經常選擇聯合辦公空間，以避免在家獨自工作。）",
+      "english": "co-working space",
+      "chinese": "共同工作空間",
+      "example": "Freelancers and remote workers often choose co-working spaces to avoid working alone at home.（自由職業者和遠距工作者經常選擇聯合辦公空間，以避免在家獨自工作。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Hot-desking office",
-      "chinese": "An office where people use different desks each day（人們每天使用不同辦公桌的辦公室，輪用桌辦公室）",
+      "english": "hot-desking office",
+      "chinese": "不固定座位的辦公室",
       "example": "The company introduced a hot-desking office policy to make better use of space and encourage collaboration.（這家公司推出了輪用桌辦公室政策，以更好地利用空間並鼓勵合作。）",
       "category": "English-Class",
       "source": "English-Class lessons"

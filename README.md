@@ -17,6 +17,7 @@ The homepage offers two entries: English keeps the existing EnglishForge experie
 - Separate vocabulary/phrase, sentence, and mixed practice modes across flashcards, quizzes, and the library
 - Normal-speed and slow English text-to-speech, plus hide-and-recall shadowing (browser speech synthesis)
 - Editable material types in the library; changing a type keeps existing review progress
+- Delete items from the library (with confirmation); deletions sync to other devices
 - Difficulty-based review intervals: 0, 1, 3, 7, 14, 30, 60 days
 - Searchable vocabulary/sentence library
 - JSON import with duplicate detection and JSON progress backup
@@ -67,7 +68,7 @@ The importer also accepts objects with `items`, `references`, `vocabulary`, or `
 
 An optional `kind` field accepts `"word"` (including phrases) or `"sentence"`. Imports under `vocabulary` and `sentences` retain that type. Untyped items use sentence-ending punctuation as a first pass; correct ambiguous items with the type selector in the library. Existing browser data needs no migration.
 
-English notes use the form `Example sentence.（中文翻譯。）`; `example` is accepted when `note` is absent. Reimporting the same English text replaces a missing or incomplete example (no playable sentence or no Chinese), leaving complete notes and progress untouched.
+English notes use the form `Example sentence.（中文翻譯。）`; `example` is accepted when `note` is absent. Reimporting the same English text refreshes its English, Chinese, and note from the file (imported text cannot be edited in the app), leaving learning progress untouched. Chinese prompts should be a short Traditional Chinese meaning with no English, so they never reveal the answer.
 
 For pronunciation practice, reveal a flashcard, listen at normal speed, use slow playback to shadow it, then hide the English and say it again. Bilingual examples in material notes also have normal/slow playback; only the English portion is spoken. Words focus on stress and syllables; sentences focus on rhythm, linking, and pauses. This is self-assessed practice, not microphone pronunciation scoring.
 

@@ -45,7 +45,7 @@
     {
       "english": "sip",
       "chinese": "小口啜飲；（名詞）小一口",
-      "example": "He sat by the window and slowly sip his hot coffee.（他坐在窗邊慢慢地喝著熱咖啡。）",
+      "example": "He sat by the window and slowly sipped his hot coffee.（他坐在窗邊慢慢地喝著熱咖啡。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
@@ -65,8 +65,8 @@
     },
     {
       "english": "Valpolicella",
-      "chinese": "瓦波利切拉（意大利葡萄酒/產區名）",
-      "example": "Valpolicella is a popular Italian red wine that goes great with pasta.（瓦波利切拉是一款很受歡迎的意大利紅酒，和意面很配。）",
+      "chinese": "瓦波利切拉（義大利葡萄酒／產區名）",
+      "example": "Valpolicella is a popular Italian red wine that goes great with pasta.（瓦波利切拉是一款很受歡迎的義大利紅酒，和義大利麵很配。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
@@ -114,7 +114,7 @@
     },
     {
       "english": "body // light-bodied / full-bodied",
-      "chinese": "酒体（醇厚度） // 清淡酒體 / 飽滿酒體",
+      "chinese": "酒體（醇厚度）／清淡酒體／飽滿酒體",
       "example": "If you like thick and strong drinks, choose a full-bodied red wine.（如果你喜歡濃郁厚重的飲料，就選酒體飽滿的紅葡萄酒。）",
       "category": "English-Class",
       "source": "English-Class lessons"
@@ -128,8 +128,8 @@
     },
     {
       "english": "dryness / off-dry",
-      "chinese": "干度（無甜度） / 半干型（微甜）",
-      "example": "If you do not like completely dry wines, try an off-dry white wine instead.（如果你不喜歡完全不甜的酒，可以試試半干型白葡萄酒。）",
+      "chinese": "不甜程度（乾型）／半乾型（微甜）",
+      "example": "If you do not like completely dry wines, try an off-dry white wine instead.（如果你不喜歡完全不甜的酒，可以試試半乾型白葡萄酒。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
@@ -212,7 +212,7 @@
     },
     {
       "english": "glycemic index (GI)",
-      "chinese": "升糖指數（GI）",
+      "chinese": "升糖指數",
       "example": "Eating foods with a low glycemic index helps control your energy throughout the day.（食用低升糖指數的食物有助於全天控制能量。）",
       "category": "English-Class",
       "source": "English-Class lessons"
@@ -248,7 +248,7 @@
     {
       "english": "chemistry",
       "chinese": "化學；（人與人之間的）化學反應/默契",
-      "example": "Cooking food involves a lot of interesting simple chemistry.（烹飪食物包含許多有趣且簡單的化學反應。）",
+      "example": "Cooking involves a lot of simple but interesting chemistry.（烹飪包含許多簡單又有趣的化學反應。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
@@ -269,7 +269,7 @@
     {
       "english": "leave / typhoon leave / ask for leave",
       "chinese": "假期，休假 / 颱風假 / 請假",
-      "example": "I felt very sick this morning, so I had to ask for leave and stayed in bed.（今天早上我病得很厲害，所以我必須請假並躺在床上休息。）",
+      "example": "I felt very sick this morning, so I had to ask for leave and stay in bed.（我今天早上很不舒服，只好請假躺在床上休息。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
@@ -485,15 +485,15 @@
     },
     {
       "english": "edit PowerPoint slides and images",
-      "chinese": "編輯PPT文字與圖片",
+      "chinese": "編輯簡報投影片與圖片",
       "example": "I need to edit the PowerPoint slides and images before presenting to the manager tomorrow morning.（在明天早上向經理做簡報之前，我需要編輯好PPT的投影片和圖片。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "cut down on information",
-      "chinese": "精簡信息",
-      "example": "The report is too wordy; we should cut down on information to make it easier to read.（這份報告太囉唆了；我們應該精簡信息以使其更容易閱讀。）",
+      "chinese": "精簡資訊",
+      "example": "The report is too wordy; we should cut down on information to make it easier to read.（這份報告太囉唆了；我們應該精簡資訊以使其更容易閱讀。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
@@ -520,15 +520,15 @@
     },
     {
       "english": "hand a project over to sb",
-      "chinese": "把項目交給某人負責",
-      "example": "Before Alice left for her vacation, she handed the project over to me.（在愛麗絲請假去度假之前，她把項目交給了我負責。）",
+      "chinese": "把專案交給某人負責",
+      "example": "Before Alice left for her vacation, she handed the project over to me.（在愛麗絲請假去度假之前，她把專案交給了我負責。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "similar projects",
-      "chinese": "類似項目",
-      "example": "Since we have done similar projects before, this new task should be quite easy for us.（既然我們以前做過類似項目，這項新任務對我們來說應該挺容易的。）",
+      "chinese": "類似的專案",
+      "example": "Since we have done similar projects before, this new task should be quite easy for us.（既然我們以前做過類似的專案，這項新任務對我們來說應該挺容易的。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
@@ -611,8 +611,8 @@
     },
     {
       "english": "convenience stores",
-      "chinese": "便利店",
-      "example": "There are three different convenience stores right outside our school gates, which is very handy.（我們學校大門外就有三家不同的便利店，這非常方便。）",
+      "chinese": "便利商店",
+      "example": "There are three different convenience stores right outside our school gates, which is very handy.（我們學校大門外就有三家不同的便利商店，這非常方便。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },

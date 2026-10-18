@@ -325,13 +325,12 @@ test('Japanese cards hide the translation provenance notice and preserve other n
   }
 });
 
-test('reimporting English fills incomplete examples without touching complete ones or progress', () => {
+test('reimporting English refreshes its text without touching progress', () => {
   const a = app();
-  a.run('data=[{english:"tent",chinese:"帳篷",note:"We set up our tent.",level:3,seen:1},{english:"perfume",chinese:"香水",note:"She wears perfume.（她擦香水。）"}]');
-  a.run('mergeItems(parseItems([{english:"tent",example:"We set up our tent.（我們搭好帳篷。）"},{english:"perfume",note:"Other.（別的。）"}]))');
-  assert.equal(a.run('data[0].note'), 'We set up our tent.（我們搭好帳篷。）');
-  assert.equal(a.run('data[0].level'), 3);
-  assert.equal(a.run('data[1].note'), 'She wears perfume.（她擦香水。）');
+  a.run('data=[{english:"Tent",chinese:"一種露營用的布篷。",note:"We set up our tent.",level:3,seen:1}]');
+  a.run('mergeItems(parseItems([{english:"tent",chinese:"帳篷",example:"We set up our tent.（我們搭好帳篷。）"},{english:"lamp",chinese:"燈"}]))');
+  assert.equal(a.run('data.length'), 2);
+  assert.equal(a.run('JSON.stringify([data[0].english,data[0].chinese,data[0].note,data[0].level,data[0].seen])'), JSON.stringify(['tent','帳篷','We set up our tent.（我們搭好帳篷。）',3,1]));
   assert.equal(a.run('exampleEnglish({english:"x",note:"\\"On time\\" means not late.（準時。）"})'), '"On time" means not late.');
 });
 
@@ -343,4 +342,16 @@ test('library and study card show practice count and times', () => {
   assert.match(html, /練習 1 次 · 首次 .+ · 上次 /);
   a.run('studyQueue=[data[1]];studyIndex=0;renderStudy()');
   assert.match(a.el('studytag').textContent, /複習 · 上次 /);
+});
+
+test('deleting an item asks first and records the removal for sync', () => {
+  const stored = new Map(), a = app('en', stored);
+  const english = a.run('data[0].english');
+  a.run('confirm=()=>false;deleteItem(0)');
+  assert.equal(a.run('data[0].english'), english);
+  a.run('confirm=()=>true;deleteItem(0)');
+  assert.equal(a.run('data.some(x=>x.english===' + JSON.stringify(english) + ')'), false);
+  const records = JSON.parse(stored.get('english-forge-v1-records'));
+  assert.deepEqual(Object.keys(Object.values(records).find(r => !r.english)), ['at']);
+  assert.equal(a.run('fromRecords(loadRecords()).length'), 9);
 });

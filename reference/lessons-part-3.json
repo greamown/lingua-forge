@@ -1,91 +1,77 @@
 {
   "items": [
     {
-      "english": "Insomnia / Poor sleep quality",
+      "english": "insomnia / poor sleep quality",
       "chinese": "失眠 / 睡眠品質不佳",
       "example": "My insomnia can be attributed to the high stress levels I've experienced since starting my master's degree.（我的失眠可以歸因於自從開始攻讀碩士學位以來所經歷的高壓力水平。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Have a nosebleed / Stop the bleeding",
+      "english": "have a nosebleed / stop the bleeding",
       "chinese": "流鼻血 / 止血",
       "example": "When you have a nosebleed, lean forward and pinch your nose to stop the bleeding.（流鼻血時，身體前傾並捏住鼻子來止血。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Wind down / Unwind",
+      "english": "wind down / unwind",
       "chinese": "放鬆 / 靜下心來",
       "example": "Establishing a nightly ritual to wind down is essential for those who struggle to unwind after a busy day in the city.（對於那些在城市忙碌一天後難以放鬆的人來說，建立每晚放鬆的儀式是必不可少的。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Write things down",
+      "english": "write things down",
       "chinese": "記下來",
       "example": "Writing things down before bed helps to externalize your worries, making it easier to fall asleep.（睡前把事情記下來有助於將你的擔憂外化，讓你更容易入睡。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Traveling light",
-      "chinese": "輕裝旅行",
-      "example": "To master the art of traveling light, one must prioritize versatile clothing and multi-purpose items.（要掌握輕裝旅行的藝術，必須優先考慮多功能衣物和多用途物品。）",
-      "category": "English-Class",
-      "source": "English-Class lessons"
-    },
-    {
-      "english": "Carry-on luggage / Cabin bag",
+      "english": "carry-on luggage / cabin bag",
       "chinese": "手提行李 / 登機包",
       "example": "I prefer to stow a cabin bag in the overhead bin to avoid the long wait for checked suitcases.（我更喜歡將登機包放在頭頂置物箱中，以避免長時間等待託運行李。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Leave enough space for souvenirs",
+      "english": "leave enough space for souvenirs",
       "chinese": "留空間放紀念品",
-      "example": "Strategic travelers always allocate extra space for souvenirs when packing for an international trip.（有策略的旅行者在為國際旅行打包時，總是會預留額外的紀念品空間。）",
+      "example": "Remember to leave enough space for souvenirs when you pack for the trip.（打包行李時記得留足夠的空間放紀念品。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Wild places / Wild animals",
+      "english": "wild places / wild animals",
       "chinese": "荒野 / 野生動物",
-      "example": "Travelers visiting Africa often hope to encounter wild animals while exploring the continent's most wild places.（前往非洲旅遊的遊客，通常希望在探索該大陸最原始的荒野時與野生動物偶遇。）",
+      "example": "Travelers visiting Africa often hope to see wild animals while exploring its wild places.（造訪非洲的旅客常希望在探索荒野時看到野生動物。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Fortune telling / Feng shui",
+      "english": "fortune telling / feng shui",
       "chinese": "算命 / 風水",
       "example": "Many people apply feng shui principles to their homes to create a more peaceful living environment.（許多人在家中應用風水原則，以創造一個更平靜的居住環境。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Eight characters (Bazi)",
+      "english": "eight characters (Bazi)",
       "chinese": "生辰八字",
       "example": "The interpretation of the eight characters can provide insights into a person's elemental strengths and weaknesses.（對生辰八字的解讀可以深入了解一個人五行能量的強項與弱點。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Choice / Choose",
-      "chinese": "選擇",
-      "example": "When faced with a difficult choice, analyzing the pros and cons helps you make an informed choice.（當面臨艱難抉擇時，分析利弊有助於你做出明智的選擇。）",
-      "category": "English-Class",
-      "source": "English-Class lessons"
-    },
-    {
-      "english": "Warning",
+      "english": "warning",
       "chinese": "警告 / 提醒",
       "example": "We should heed the warning signs of burnout and take time to rest before it's too late.（我們應該聽從過度勞累的警告訊號，在為時已晚之前抽時間休息。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
-      "english": "Cat grass",
+      "english": "cat grass",
       "chinese": "貓草",
       "example": "Cultivating cat grass is a simple way to provide your pet with necessary nutrients at home.（在家中栽種貓草是為寵物提供必要營養的一種簡單方法。）",
       "category": "English-Class",
@@ -93,343 +79,343 @@
     },
     {
       "english": "before the class",
-      "chinese": "課程開始之前的那段時間。",
+      "chinese": "上課前",
       "example": "Please make sure you have all your materials ready before the class.（請確認上課前已準備好所有資料。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "two and a half hours",
-      "chinese": "長度為兩個半小時的一段時間。",
+      "chinese": "兩個半小時",
       "example": "The workshop will last approximately two and a half hours.（這場工作坊大約會進行兩個半小時。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "wetland",
-      "chinese": "長期或季節性積水的土地，如沼澤、濕原等生態環境。",
+      "chinese": "濕地",
       "example": "Wetlands play an essential role in filtering water and supporting wildlife.（濕地在淨化水質和維持野生動物生存上扮演重要角色。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "Osaka",
-      "chinese": "位於日本關西地區的重要城市與經濟中心。",
+      "chinese": "大阪",
       "example": "Osaka is famous for its lively food scene and friendly locals.（大阪以熱鬧的美食文化和友善的當地人聞名。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "security risk",
-      "chinese": "可能威脅安全、隱私或穩定的人、狀況或因素。",
+      "chinese": "安全風險",
       "example": "Some places are not safe to visit because of a high security risk.（有些地方因為安全風險高，不適合前往。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "sunbathe",
-      "chinese": "坐在或躺在陽光下休閒或曬黑。",
+      "chinese": "曬日光浴",
       "example": "We spent the afternoon sunbathing by the pool.（我們整個下午都在泳池邊曬太陽。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "scorching",
-      "chinese": "極度炎熱、灼熱的，尤指天氣或陽光。",
+      "chinese": "炙熱的、酷熱的",
       "example": "You must wear sunscreen in this scorching heat.（在這麼炙熱的天氣裡，你一定要擦防曬。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "hairstyle",
-      "chinese": "一個人的頭髮被修剪、造型或整理的樣式。",
+      "chinese": "髮型",
       "example": "Her new hairstyle suits her really well.（她的新髮型非常適合她。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "get a new haircut",
-      "chinese": "剪一個新的、不同的髮型。",
+      "chinese": "剪新髮型",
       "example": "I’m thinking of getting a new haircut before the holiday.（我在考慮放假前去剪個新髮型。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "far away from",
-      "chinese": "距離某地或某人很遠。",
+      "chinese": "離……很遠",
       "example": "Their house is far away from the noise of the city.（他們的房子遠離城市的喧囂。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "long distance",
-      "chinese": "關於兩地或兩人之間的長距離。",
+      "chinese": "長途、遠距離",
       "example": "Long-distance travel can be tiring but very rewarding.（長途旅行可能很累，但收穫很多。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "tent",
-      "chinese": "以防水布料製成、用於露營的可攜式遮蔽物。",
+      "chinese": "帳篷",
       "example": "We set up our tent near the lake before dark.（我們在天黑前於湖邊搭好帳篷。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "stormy weather",
-      "chinese": "伴隨強風、大雨、雷鳴或閃電的天氣。",
+      "chinese": "暴風雨天氣",
       "example": "The flight was cancelled due to stormy weather.（班機因暴風雨天氣而取消。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "earthquake",
-      "chinese": "因地殼運動引發的地面突然震動。",
+      "chinese": "地震",
       "example": "You should know what to do during an earthquake.（你應該知道地震時該怎麼做。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "facility",
-      "chinese": "為特定用途提供的建築、服務或設施。",
+      "chinese": "設施",
       "example": "The hotel offers excellent fitness and swimming facilities.（這間飯店提供很棒的健身和游泳設施。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "infrastructure",
-      "chinese": "一個國家或地區運作所需的基礎系統，如交通、能源、水利、道路。",
+      "chinese": "基礎建設",
       "example": "Investment in infrastructure supports economic growth.（投資基礎建設有助於經濟成長。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "equipment",
-      "chinese": "從事特定活動所需的工具、機器或物品。",
+      "chinese": "設備、器材",
       "example": "All equipment must be checked before use.（所有設備在使用前都必須檢查。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "volcano",
-      "chinese": "有開口能噴發岩漿、灰燼與氣體的山。",
+      "chinese": "火山",
       "example": "The island has several active volcanoes.（這座島上有好幾座活火山。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "volcanic eruption",
-      "chinese": "火山突然噴發岩漿、灰燼與氣體的現象。",
+      "chinese": "火山爆發",
       "example": "The volcanic eruption caused serious damage nearby.（火山爆發對附近地區造成嚴重破壞。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "freezing",
-      "chinese": "極度寒冷，常冷到足以結冰。",
+      "chinese": "極冷的、冷到結冰",
       "example": "Wear a warm coat — it’s freezing outside.（穿件保暖的外套，外面冷得要命。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "teapot",
-      "chinese": "有把手、壺嘴與壺蓋，用來泡茶與倒茶的容器。",
+      "chinese": "茶壺",
       "example": "She poured hot tea from the teapot into the cups.（她把茶壺裡的熱茶倒進杯子裡。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "sightseeing",
-      "chinese": "造訪某地著名或有趣景點的活動。",
+      "chinese": "觀光、遊覽",
       "example": "We spent the whole day sightseeing in the old town.（我們花了一整天在老城區觀光。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "sulphur hot spring",
-      "chinese": "含硫磺、有特殊氣味且具放鬆效果的天然溫泉。",
+      "chinese": "硫磺溫泉",
       "example": "Japan is famous for its natural sulphur hot springs.（日本以天然硫磺溫泉聞名。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "mineral hot spring",
-      "chinese": "富含天然礦物質、有益健康與放鬆的溫泉。",
+      "chinese": "礦物溫泉",
       "example": "Many people visit mineral hot springs to relax.（很多人去礦物溫泉放鬆身心。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "caffeine",
-      "chinese": "存在於咖啡、茶、提神飲料與部分巧克力中的天然興奮劑。",
+      "chinese": "咖啡因",
       "example": "Caffeine can help you stay alert but may affect sleep.（咖啡因能幫助你保持清醒，但可能影響睡眠。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "Southeast Asia",
-      "chinese": "位於亞洲東南部的區域，包括中國以南、印度以東、澳洲以北的多個國家。",
+      "chinese": "東南亞",
       "example": "Southeast Asia is famous for its beaches and culture.（東南亞以海灘和文化聞名。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "elementary school",
-      "chinese": "給 6 到 11 歲左右兒童就讀的學校，為義務教育的第一階段。",
+      "chinese": "小學",
       "example": "I started learning English in elementary school.（我從小學開始學英文。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "receptionist",
-      "chinese": "在飯店、公司或醫院負責接待訪客、提供協助的工作人員。",
+      "chinese": "接待員、櫃檯人員",
       "example": "The receptionist gave me my room key.（櫃檯人員把房間鑰匙交給我。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "world cultural heritage",
-      "chinese": "被聯合國教科文組織認定，對全人類具有特殊文化價值的地點或古蹟。",
+      "chinese": "世界文化遺產",
       "example": "Many temples are listed as world cultural heritage.（許多寺廟被列為世界文化遺產。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "Michelin",
-      "chinese": "法國知名餐廳評鑑指南，以星級評定餐廳品質。",
+      "chinese": "米其林",
       "example": "We ate at a Michelin‑starred restaurant in Paris.（我們在巴黎一家米其林星級餐廳用餐。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "get worse",
-      "chinese": "變得更糟、更嚴重、更不愉快或更困難。",
+      "chinese": "變得更糟",
       "example": "The weather started to get worse in the afternoon.（下午天氣開始變差。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "Vietnamese dong (VND)",
-      "chinese": "越南的官方貨幣。",
+      "chinese": "越南盾",
       "example": "I exchanged some money for Vietnamese dong.（我換了一些越南盾。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "Da Nang",
-      "chinese": "越南中部的重要城市與港口。",
+      "chinese": "峴港",
       "example": "Da Nang is a popular tourist city.（峴港是熱門的觀光城市。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "the center of Vietnam",
-      "chinese": "越南的地理中間區域。",
+      "chinese": "越南中部",
       "example": "The center of Vietnam has beautiful beaches.（越南中部有美麗的海灘。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "lantern",
-      "chinese": "有保護外框的燈具，常以紙或玻璃製成，多用於裝飾。",
+      "chinese": "燈籠",
       "example": "The streets are full of beautiful lanterns.（街道上掛滿了美麗的燈籠。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "less developed area",
-      "chinese": "經濟成長較低、現代設施較少的區域。",
+      "chinese": "較不發達的地區",
       "example": "Tourism helps less developed areas grow.（觀光業幫助較不發達的地區發展。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "Bangkok",
-      "chinese": "泰國的首都。",
+      "chinese": "曼谷",
       "example": "Bangkok is a busy and exciting city.（曼谷是個繁忙又充滿活力的城市。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "Spain",
-      "chinese": "位於歐洲西南部的國家。",
+      "chinese": "西班牙",
       "example": "I want to travel around Spain.（我想環遊西班牙。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "France",
-      "chinese": "西歐國家，以藝術、美食和歷史聞名。",
+      "chinese": "法國",
       "example": "France is famous for its food and culture.（法國以美食和文化聞名。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "Italy",
-      "chinese": "南歐國家，以歷史、藝術和美食聞名。",
+      "chinese": "義大利",
       "example": "Many tourists visit Italy every year.（每年都有很多遊客造訪義大利。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "Belgium",
-      "chinese": "位於西歐的國家。",
+      "chinese": "比利時",
       "example": "Belgium is famous for chocolate and waffles.（比利時以巧克力和鬆餅聞名。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "Nordic country",
-      "chinese": "位於歐洲北部的國家，包括丹麥、芬蘭、冰島、挪威、瑞典。",
+      "chinese": "北歐國家",
       "example": "Nordic countries have a high quality of life.（北歐國家的生活品質很高。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "travel light",
-      "chinese": "只帶少量行李旅行。",
+      "chinese": "輕裝旅行",
       "example": "I like to travel light when I go abroad.（我出國時喜歡輕裝旅行。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "credit card",
-      "chinese": "用來消費並事後付款的塑膠卡片。",
+      "chinese": "信用卡",
       "example": "You can pay by credit card here.（這裡可以刷信用卡付款。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "swimming suit",
-      "chinese": "游泳時穿的衣服。",
+      "chinese": "泳衣",
       "example": "Don’t forget your swimming suit.（別忘了帶泳衣。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "charger",
-      "chinese": "幫手機或電池充電的設備。",
+      "chinese": "充電器",
       "example": "I forgot to bring my phone charger on the trip.（我旅行時忘了帶手機充電器。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "packed stuff",
-      "chinese": "為旅行打包好的物品。",
+      "chinese": "打包好的行李",
       "example": "I checked my packed stuff before leaving.（我出發前檢查了打包好的行李。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "Norway",
-      "chinese": "北歐國家，以峽灣和自然景觀聞名。",
+      "chinese": "挪威",
       "example": "Norway has amazing natural scenery.（挪威有令人驚豔的自然風光。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "Copenhagen",
-      "chinese": "丹麥的首都。",
+      "chinese": "哥本哈根",
       "example": "Copenhagen is clean and beautiful.（哥本哈根乾淨又美麗。）",
       "category": "English-Class",
       "source": "English-Class lessons"
@@ -443,71 +429,71 @@
     },
     {
       "english": "hand brew",
-      "chinese": "以手工方式慢慢將熱水沖過咖啡粉製成的咖啡。",
-      "example": "I prefer hand brew coffee.（我比較喜歡手沖咖啡。）",
+      "chinese": "手沖（咖啡）",
+      "example": "I prefer a hand brew to coffee from a machine.（比起機器煮的咖啡，我更喜歡手沖。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "Arabica",
-      "chinese": "一種高品質的咖啡豆品種。",
+      "chinese": "阿拉比卡（咖啡豆品種）",
       "example": "This café uses Arabica beans.（這家咖啡廳使用阿拉比卡咖啡豆。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "condensed milk",
-      "chinese": "去掉水分、濃稠甜膩的牛奶，常用於咖啡。",
+      "chinese": "煉乳",
       "example": "Vietnamese coffee uses condensed milk.（越南咖啡會加煉乳。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "top of the building",
-      "chinese": "建築物的最高處。",
+      "chinese": "大樓頂樓",
       "example": "We have a great view from the top of the building.（從大樓頂樓看出去的景色很棒。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "temple",
-      "chinese": "亞洲文化中用於宗教信仰、祭拜的建築。",
+      "chinese": "寺廟",
       "example": "There are many old temples in the city.（這座城市有很多古老的寺廟。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "peaceful life",
-      "chinese": "平靜、安穩、沒有壓力或危險的生活。",
+      "chinese": "平靜的生活",
       "example": "He wants a simple and peaceful life.（他想要簡單平靜的生活。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "stable",
-      "chinese": "不會突然改變；安全、穩定、可靠。",
+      "chinese": "穩定的、安穩的",
       "example": "People hope for a stable life.（人們希望過安穩的生活。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "the amount of crowd / amount of people",
-      "chinese": "用於口語中，表示某個地點或活動裡的人數、人群規模。雖然 amount 原本用在不可數名詞，但這兩個片語在日常口語裡非常常見。",
-      "example": "I was surprised by the amount of crowd at the concert last night.（昨晚演唱會的人潮之多讓我很驚訝。）",
+      "chinese": "人潮、人數",
+      "example": "I was surprised by the amount of people at the concert last night.（昨晚演唱會的人潮之多讓我很驚訝。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "branch company",
-      "chinese": "大型企業在其他城市或國家設立的分部辦公室。",
-      "example": "The company has a branch company in Asia.（這家公司在亞洲有一間分公司。）",
+      "chinese": "分公司",
+      "example": "Our firm opened a branch company in Singapore last year.（我們公司去年在新加坡開了一家分公司。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "flood",
-      "chinese": "名詞：洪水；水災｜動詞：泛濫；淹沒",
-      "example": "The small village was hit by a terrible flood last summer, and many houses were destroyed.（這個小村庄去年夏天遭遇了嚴重的水災，許多房屋都被摧毀了。）",
+      "chinese": "洪水、水災；淹沒",
+      "example": "The small village was hit by a terrible flood last summer, and many houses were destroyed.（這個小村莊去年夏天遭遇了嚴重的水災，許多房屋都被摧毀了。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
@@ -541,7 +527,7 @@
     },
     {
       "english": "progress",
-      "chinese": "名詞：進步；進展｜動詞：進步；推進",
+      "chinese": "進步、進展；推進",
       "example": "The students have made great progress in their English speaking skills after three months of practice.（經過三個月的練習，這些學生的英語口語能力有了極大的進步。）",
       "category": "English-Class",
       "source": "English-Class lessons"
@@ -603,8 +589,8 @@
       "source": "English-Class lessons"
     },
     {
-      "english": "Vet/Veterinarian",
-      "chinese": "獸醫（Vet 口語；Veterinarian 正式）",
+      "english": "vet/veterinarian",
+      "chinese": "獸醫（口語／正式）",
       "example": "My cat has been sick for two days, so I will take her to the vet this afternoon.（我的貓病了兩天，今天下午我要帶牠去看獸醫。）",
       "category": "English-Class",
       "source": "English-Class lessons"
@@ -639,15 +625,15 @@
     },
     {
       "english": "crisp",
-      "chinese": "形容詞：脆的；清脆的；清新的｜名詞：薯片（英式）",
+      "chinese": "脆的、清爽的；（英式）洋芋片",
       "example": "These fresh carrots are very crisp, and they taste great when eaten raw.（這些新鮮胡蘿蔔很脆，生吃味道很棒。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "own",
-      "chinese": "動詞：擁有｜形容詞：自己的｜代名詞：自己的（東西 / 人）",
-      "example": "She has always wanted to own a small café in the neighbourhood, and she finally made it last year.（她一直想在附近開一家小咖啡館，去年終於如願以償了。）",
+      "chinese": "擁有；自己的",
+      "example": "She has always wanted to own a small café in the neighbourhood, and she finally did it last year.（她一直想在社區裡擁有一家小咖啡館，去年終於實現了。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
@@ -660,7 +646,7 @@
     },
     {
       "english": "judge",
-      "chinese": "名詞：法官；裁判｜動詞：判斷；評價；審判",
+      "chinese": "法官、裁判；判斷、評價",
       "example": "It’s not fair to judge someone only by their first impression; you need to know them better.（只靠第一印象評價一個人是不公平的，你需要更瞭解他們。）",
       "category": "English-Class",
       "source": "English-Class lessons"
@@ -688,29 +674,29 @@
     },
     {
       "english": "sentry/scout",
-      "chinese": "sentry：名詞，崗兵；崗哨｜動詞，守衛；放哨｜scout：名詞，偵查員；探員｜動詞，偵查；勘查",
+      "chinese": "哨兵、站崗／偵察兵、偵察",
       "example": "The soldiers stand sentry at the camp gate 24 hours a day to ensure the safety of the camp.（士兵們全天 24 小時在營地門口站崗，確保營地安全。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "sink/washbasin",
-      "chinese": "sink：廚房水槽；洗碗池｜washbasin：衛生間洗臉盆；面盆",
+      "chinese": "（廚房）水槽／（浴室）洗臉盆",
       "example": "The water from the kitchen sink is slow to drain, so we need to clean the pipe.（廚房水槽的下水很慢，我們需要清理一下水管。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "dryer/tumble dryer",
-      "chinese": "烘衣機（dryer 通用；tumble dryer 英式）",
+      "chinese": "烘衣機（通用／英式說法）",
       "example": "It’s raining outside, so we can’t hang the clothes out to dry—let’s use the tumble dryer instead.（外面在下雨，衣服晾不了，我們用烘衣機吧。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
     {
       "english": "fix/deal with/solve/handle the problem",
-      "chinese": "fix the problem：解決（具體實質性）問題｜",
-      "example": "The manager needs to handle this team conflict problem carefully, as it requires balancing the emotions of all team members.（經理需要謹慎處理這起團隊衝突問題，因為這需要平衡所有團隊成員的情緒。）",
+      "chinese": "解決／處理問題",
+      "example": "The manager needs to handle the problem carefully because it affects everyone on the team.（經理需要謹慎處理這個問題，因為它影響到團隊裡的每個人。）",
       "category": "English-Class",
       "source": "English-Class lessons"
     },
